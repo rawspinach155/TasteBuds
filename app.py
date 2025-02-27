@@ -72,7 +72,7 @@ def parse_data(businesses):
     return pd.DataFrame(data)
 
 # Streamlit UI elements
-st.title("TasetBuds 🍽️")
+st.image("header.png", use_container_width=True)
 st.write("""
     Get personalized restaurant recommendations based on your group preferences!
 """)
